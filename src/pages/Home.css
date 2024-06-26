@@ -6,3 +6,34 @@
 .home h2 {
   margin-bottom: 20px;
 }
+/* CarouselComponent.css */
+
+/* Style for the images in the carousel */
+.carousel .slide img {
+  width: 50%;
+ 
+  max-height: 80vh;
+  object-fit: cover;
+}
+
+/* Style for the button on the images in the carousel */
+.carousel .slide .button {
+  position: absolute;
+  bottom: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #f9a300;
+  color: #fff;
+  font-size: 18px;
+  padding: 10px 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.carousel .slide .button:hover {
+  background-color: #d88c004f;
+}
