@@ -1,17 +1,18 @@
 .home {
   text-align: center;
-  padding: 50px;
+  padding: -15px;
+  color: #A6ACAF;
 }
 
 .home h2 {
-  margin-bottom: 20px;
+  margin-bottom: 5px;
+  color: #A6ACAF ;
 }
 /* CarouselComponent.css */
 
 /* Style for the images in the carousel */
 .carousel .slide img {
   width: 50%;
- 
   max-height: 80vh;
   object-fit: cover;
 }
@@ -37,3 +38,4 @@
 .carousel .slide .button:hover {
   background-color: #d88c004f;
 }
+
