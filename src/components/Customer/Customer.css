@@ -1,5 +1,12 @@
 .browse-chefs {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
-  justify-content: space-around;
+}
+.chefs {
+  display: flex;
+  flex-wrap: wrap;
+}
+.select-options {
+  padding: 10px;
 }

@@ -1,5 +1,6 @@
 import React from "react";
 import "./Home.css";
+// import CarouselComponent from "../components/CarouselComponent";
 import CarouselComponent from "../components/CarouselComponent";
 import ContactForm from "../components/ContactForm";
 
@@ -15,5 +16,3 @@ const Home = () => {
 };
 
 export default Home;
-
-
